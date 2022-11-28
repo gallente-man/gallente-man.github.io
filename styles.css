@@ -9,3 +9,16 @@ body {
 	color: white;
 	text-shadow: 2px 2px green;
 }
+
+.siteMenu {
+	table-layout: fixed;
+	width: 100%;
+	background-color: gray;
+	text-align: center;
+	padding: 10px;
+	color: white;
+}
+
+.cellItem:hover {
+	background-color: coral;
+}
