@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background-color: black;
 	background-image: url("wallpaper.jpg");
@@ -8,10 +12,6 @@ body {
 a {
 	color: white;
 	text-decoration: none;
-}
-
-table {
-	color: white;
 }
 
 .pageTitle {
@@ -25,10 +25,32 @@ table {
 	width: 100%;
 	background-color: gray;
 	text-align: center;
-	padding: 10px;
+	padding: 1px;
 	color: white;
 }
 
 .cellItem:hover {
 	background-color: coral;
+}
+
+.left1 {
+	color: white;
+	padding: 5px;
+	float: left;
+	width: 70%;
+}
+
+.right1 {
+	color: white;
+	padding: 5px;
+	float: left;
+	width: 30%;
+}
+
+@media screen and (max-width: 320px) {
+
+	.left1,
+	.right1 {
+		width: 100%;
+	}
 }
