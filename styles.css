@@ -47,7 +47,7 @@ a {
 	width: 30%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 415px) {
 
 	.left1,
 	.right1 {
