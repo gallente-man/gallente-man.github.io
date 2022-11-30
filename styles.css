@@ -9,6 +9,10 @@ body {
 	background-size: 100vw 100vh;
 }
 
+div {
+	padding: 10px;
+}
+
 a {
 	color: white;
 	text-decoration: none;
@@ -16,6 +20,7 @@ a {
 
 .pageTitle {
 	text-align: center;
+	font-size: 3vw;
 	color: white;
 	text-shadow: 2px 2px green;
 }
@@ -31,6 +36,11 @@ a {
 
 .cellItem:hover {
 	background-color: coral;
+}
+
+.webContain {
+	font-size: 3vw;
+	text-shadow: 2px 2px gray;
 }
 
 .left1 {
