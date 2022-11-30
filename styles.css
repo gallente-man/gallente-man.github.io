@@ -7,10 +7,15 @@ body {
 	background-image: url("wallpaper.jpg");
 	background-repeat: no-repeat;
 	background-size: 100vw 100vh;
+	background-attachment: fixed;
 }
 
 div {
 	padding: 10px;
+}
+
+span {
+	background-color: darkslategray;
 }
 
 a {
@@ -27,6 +32,7 @@ a {
 
 .siteMenu {
 	table-layout: fixed;
+	font-size: 2vw;
 	width: 100%;
 	background-color: gray;
 	text-align: center;
@@ -39,33 +45,30 @@ a {
 }
 
 .webContain {
+	color: white;
 	font-size: 3vw;
 	text-shadow: 2px 2px gray;
 }
 
 .left1 {
-	color: white;
 	padding: 5px;
 	float: left;
 	width: 70%;
 }
 
 .right1 {
-	color: white;
 	padding: 5px;
 	float: left;
 	width: 30%;
 }
 
 .left2 {
-	color: white;
 	padding: 5px;
 	float: left;
 	width: 30%;
 }
 
 .right2 {
-	color: white;
 	padding: 5px;
 	float: left;
 	width: 70%;
