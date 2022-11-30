@@ -57,10 +57,26 @@ a {
 	width: 30%;
 }
 
+.left2 {
+	color: white;
+	padding: 5px;
+	float: left;
+	width: 30%;
+}
+
+.right2 {
+	color: white;
+	padding: 5px;
+	float: left;
+	width: 70%;
+}
+
 @media screen and (max-width: 415px) {
 
 	.left1,
-	.right1 {
+	.right1,
+	.left2,
+	.right2 {
 		width: 100%;
 	}
 }

@@ -1,5 +1,6 @@
 /* 脚本语言，Daisy Liao同学负责的 */
 
+/* 网站标题 */
 var webTitle;
 
 webTitle = document.createElement("h1");
