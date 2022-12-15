@@ -8,7 +8,12 @@ webTitle.setAttribute("lang", "zh-Hans");
 webTitle.innerHTML = "盖伦特人宣传中心";
 websubTitle = document.createElement("h3");
 websubTitle.setAttribute("lang", "en");
-websubTitle.innerHTML = "Gallente Man Public-Center";
+websubTitle.innerHTML = "Gallente Propaganda Center";
+/* 
+  Chin Seo Keong 于2022年12月15日晚上9点通知说
+  把Gallente Man Public-Center 改成Gallente 
+  Propaganda Center。
+ */
 
 document.getElementById("siteTitle").appendChild(webTitle);
 document.getElementById("siteTitle").appendChild(websubTitle);
